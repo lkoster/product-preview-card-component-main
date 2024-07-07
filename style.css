@@ -8,8 +8,8 @@
   --clr-neutral-400: hsl(228, 12%, 48%);
   --clr-neutral-100: hsl(0, 0%, 100%);
 
-  --ff-accent: "Fraunces", serif;
-  --ff-base: "Montserrat", sans-serif;
+  --ff-accent: 'Fraunces', serif;
+  --ff-base: 'Montserrat', sans-serif;
 
   --fw-regular: 500;
   --fw-bold: 700;
@@ -109,7 +109,7 @@ body {
   align-items: center;
 }
 
-/* ie9+ 
+/* 
 https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html
 */
 .visually-hidden:not(:focus):not(:active) {
@@ -149,11 +149,11 @@ https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html
   background-color: var(--clr-primary-500);
 }
 
-button[data-icon="shopping-cart"]::before {
-  content: "";
+button[data-icon='shopping-cart']::before {
+  content: '';
   width: 15px;
   height: 16px;
-  background-image: url("images/icon-cart.svg");
+  background-image: url('images/icon-cart.svg');
 }
 /* Product styles */
 
